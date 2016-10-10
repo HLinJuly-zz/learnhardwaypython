@@ -8,3 +8,6 @@ print "I could have code like this." # comment Again
 
 print "This will run."
 # yes
+'''
+This is the last comment.
+'''
