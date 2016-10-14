@@ -44,8 +44,10 @@ def print_first_and_last_sorted(sentence):
 something = "I need a line."
 print """Hello this is a test."""
 
-anything = """
-\tI need to write down something.\n
-So here it is."""
+words = break_words(something)
 
-print print_first_word(something)
+print sort_words(words)
+print print_first_word(words)
+
+print_last_word(words)
+print_first_and_last(something)
