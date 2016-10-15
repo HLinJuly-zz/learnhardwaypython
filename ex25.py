@@ -46,8 +46,10 @@ print """Hello this is a test."""
 
 words = break_words(something)
 
-print sort_words(words)
-print print_first_word(words)
-
-print_last_word(words)
+sort_words(words)
+print "!!!"
+print_first_word(words)
+print "---"
+#print_last_word(words)
+print "???"
 print_first_and_last(something)
