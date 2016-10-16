@@ -42,7 +42,7 @@ if not state:
 city = cities.get('TX', 'Does Not Exist')
 print "The city for the state 'TX' is : %s" % city
 
-print cities[0]  # wrong
+# print cities[0]  # wrong
 
 # What if I need a dictionary, but I need it to be in order?
 # Take a look at the collections.OrderedDict data structure in Python. Search for it online to find the documentation.
